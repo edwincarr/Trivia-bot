@@ -1,0 +1,7 @@
+
+number = input("Enter a number: ")
+b = 5
+if number > b
+  print("Hello " + number)
+else
+  print("invalid")
