@@ -22,8 +22,6 @@ def triv():
     print(f'{CORRECT_ANSWER}... Try Again')
     return 0
 
-# triv()
-
 def multiTriv(rounds = 3):
   counter = 0
   for x in range(rounds):
