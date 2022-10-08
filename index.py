@@ -17,7 +17,19 @@ def triv():
 
   if answers[user_res] == CORRECT_ANSWER:
     print('Your cooking with gas')
+    return 1
   else:
     print(f'{CORRECT_ANSWER}... Try Again')
+    return 0
 
-triv()
+# triv()
+
+def multiTriv(rounds = 3):
+  counter = 0
+  for x in range(rounds):
+    result = triv()
+    if result == 1:
+      counter += 1
+  print(f"Correct: {counter} out of {rounds}")
+
+multiTriv()
