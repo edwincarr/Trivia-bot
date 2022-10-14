@@ -6,3 +6,9 @@
 
 # to pull from github
 - git pull
+
+
+
+# how to start bot
+- pipenv shell
+- python index.py
